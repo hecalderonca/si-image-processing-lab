@@ -1,4 +1,5 @@
-from PIL import Image, ImageFilter, ImageDraw
+from PIL import Image, ImageDraw, ImageFilter
+
 
 def process_image(input_path, output_path, rotation_angle, filter_name, watermark_text):
 
