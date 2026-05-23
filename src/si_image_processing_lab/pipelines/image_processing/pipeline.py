@@ -1,5 +1,7 @@
 from kedro.pipeline import Pipeline, node
+
 from .nodes import process_image
+
 
 def create_pipeline(**kwargs):
     return Pipeline(
